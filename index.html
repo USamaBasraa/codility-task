@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
@@ -13,19 +14,19 @@
 <!-- navbar section start -->
 <nav class="navbar navbar-expand-md navbar-light">
     <div class="container nav-padding">
-      <div class="d-flex w-50 links gap-3">
+      <div class="d-flex w-50 links gap-3" data-aos="fade-right" data-aos-duration="1500">
         <a class="navbar-brand navbar-links" href="#">Home</a>
         <a class="navbar-brand navbar-links" href="#">About</a>
         <a class="navbar-brand navbar-links" href="#">Contact</a>
       </div>
 
-      <div class="mx-auto">
+      <div class="mx-auto" data-aos="fade-in" data-aos-duration="1500">
         <a class="navbar-brand logo" href="#">
           Landing
         </a>
       </div>
 
-      <div class="d-flex w-50 justify-content-end links">
+      <div class="d-flex w-50 justify-content-end links" data-aos="fade-left" data-aos-duration="1500">
           <a href="#" class="btn btn-primary banner-btn right-space">Buy Now</a>
       </div>
 
@@ -62,7 +63,7 @@
                     <p class="banner-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
                     <p class="banner-content">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                     <a href="#" class="btn btn-primary banner-btn right-space">Purchase UI Kit</a>
-                    <a href="#" class="btn btn-primary banner-btn">Learn More</a>
+                    <a href="#" class="btn btn-primary banner-btn learn-more-button">Learn More</a>
             </div>
             <div class="col-md-6 d-flex justify-content-end">
                 <img src="./assets/images/banner-img.png" height="780" width="450" alt="" class="img-fluid img-positioning">
@@ -74,7 +75,7 @@
 <!-- hero banner end -->
 
 <!-- about section 1 start -->
- <section class="about-section1">
+ <section class="about-section1" data-aos="fade-up">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d-flex flex-column justify-content-center">
@@ -89,7 +90,7 @@
                 </p>
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="./assets/images/about-section1.png" alt="" width="36" height="36" class="img-fluid">
+                        <img src="./assets/images/Icon.png" alt="" width="36" height="36" class="img-fluid">
                         <h3 class="about-title">
                             Title Goes Here
                         </h3>
@@ -98,7 +99,7 @@
                         </p>
                     </div>
                     <div class="col-sm-6">
-                        <img src="./assets/images/about-section1.png" alt="" width="36" height="36" class="img-fluid">
+                        <img src="./assets/images/Icon.png" alt="" width="36" height="36" class="img-fluid">
                         <h3 class="about-title">
                             Title Goes Here
                         </h3>
@@ -247,5 +248,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>  
 </body>
 </html>
