@@ -1,24 +1,29 @@
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
+
 .navbar-links {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #505F98;
 }
+
 .logo {
     font-weight: 900;
-    font-size: 26;
+    font-size: 26px; 
     line-height: 38px;
     color: #37447E;
 }
+
 .buy-now-container {
     width: 160px;
     height: 26px;
     background-color: #111b47;
     border-radius: 2px;
 }
+
 .buy-now-button {
     font-weight: 500;
     font-size: 12px;
@@ -27,21 +32,24 @@ body {
     color: white !important;
     display: inline-block;
 }
+
 .nav-padding {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
 .right-space {
     margin-right: 30px;
 }
+
 .banner-heading {
     font-weight: 500;
     font-size: 50px;
     line-height: 66px;
     color: #091133;
-    line-height: 66px;
     padding-top: 253px;
 }
+
 .hero-section {
     background-image: url('../images/hero-banner-bg.png');
     background-size: cover;
@@ -52,16 +60,19 @@ body {
     padding-top: 253px;
     padding-bottom: 388px;
 }
+
 .about-section {
     font-weight: 500;
     font-size: 36px;
     line-height: 48px;
     color: #091133;
 }
+
 .about-section1 {
     padding-top: 109px;
     padding-bottom: 108px;
 }
+
 .img-positioning {
     position: absolute;
     right: 0;
@@ -69,56 +80,57 @@ body {
     padding-top: 10px;
     max-width: 100%;
 }
-.hero-banner-text {
-    position: absolute;
-    top: 200;
-    padding-bottom: 388px;
-}
+
 .banner-content {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: #505F98;
 }
+
 .about-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #091133;
 }
+
 .about-description {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #5D6970;
 }
+
 .sale-section {
     background-image: url('../images/footer-bg.png');
     background-size: cover;
 }
+
 .about-section-description {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 15px;
     line-height: 26px;
     color: #6F7CB2;
 }
+
 .sale-description {
     width: 600px;
 }
+
 .footer {
     background-color: #E7ECFF;
     padding-top: 68px;
     padding-bottom: 32px;
 }
+
 .banner-btn {
     width: 190px;
     height: 36px;
     background-color: #111B47;
     margin-bottom: 10px;
 }
-body {
-    overflow-x: hidden;
-}
+
 .learn-more-button {
     width: 190px;
     height: 36px;
@@ -127,20 +139,28 @@ body {
     color: #091133;
     border: 2px solid #091133;
 }
+
 @media (min-width: 767px) {
     #navbarNav {
         display: none !important;
     }
-  }
+}
+
 @media (max-width: 767px) {
     .links {
         display: none !important;
     }
+
     .mx-auto {
         margin-right: 0 !important;
         margin-left: 0 !important;
     }
+
     .sale-description {
         width: 250px;
     }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
